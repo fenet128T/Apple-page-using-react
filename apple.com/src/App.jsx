@@ -1,14 +1,13 @@
-import 'react'
-
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import '../src/css/style.css';
 function App() {
   return (
     <>
-    <div>
-      <h1>home</h1>
-    </div>
-    <h1>{4+6}</h1>
+      <Header />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
