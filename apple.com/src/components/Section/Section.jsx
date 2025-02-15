@@ -9,6 +9,7 @@ import backgroundImage from "../../assets/images/home/air-pods.jpg";
 import iphone from "../../assets/images/home/iphone11-pro-bg.jpg";
 import bg from "../../assets/images/home/iphone11-bg.jpg";
 import mac from "../../assets/images/home/macbook-pro.jpg";
+import Ipad from "../../assets/images/home/new-ipad.jpg";
 function Section() {
   return (
     <>
@@ -208,6 +209,7 @@ function Section() {
               </li>
             </ul>
           </div>
+          <img src={Ipad} />
         </div>
       </section>
     </>
