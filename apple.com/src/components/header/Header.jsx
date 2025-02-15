@@ -1,6 +1,7 @@
 import logo from '../../assets/images/icons/logo.png'
 import search from "../../assets/images/icons/search-icon.png";
 import cart from "../../assets/images/icons/cart.png";
+
 function Header() {
   return (
     <div>
@@ -53,3 +54,4 @@ function Header() {
 }
 
 export default Header
+
